@@ -174,3 +174,4 @@ service stunnel restart
 systemctl enable stunnel
 systemctl enable --now squid
 service squid restart 
+firewall-cmd --reload
